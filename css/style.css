@@ -117,7 +117,27 @@
             text-decoration: none;
             margin-bottom:   2px;
         }
-       
+
+/******* Extra Info Buttons */
+
+        #extra_info {
+            margin-top:   -18px;
+            padding-left: 10px;
+        }
+
+        #extra_info h4 {
+            background: url(../images/orb_more.png) no-repeat;
+            width: 100px;
+            height: 116px;
+            display: inline-block; 
+        }
+
+        #extra_info a {
+            display: block;
+            width: 90px;
+            height: 116px;
+        }
+
 /******* Demo Animation Box */
 
         div.demo_animation {
