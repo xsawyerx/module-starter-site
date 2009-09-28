@@ -1,0 +1,129 @@
+/** Main Stylesheet **/
+
+/* Global properties
+********************/
+       p {
+            border:     1px solid #666;
+            overflow:   hidden;
+            padding:    10px 0;
+            text-align: center;
+        }
+
+        .seeya {
+            text-indent: -999px;
+        }
+
+        div.spacer {
+            background-color: #ffffff;
+            height:           1em;
+        }
+
+        h2, h3 {
+            margin-top:     10px;
+            margin-left:    20px;
+            margin-right:   45px;
+            font-family:    georgia, "serif";
+            font-style:     italic;
+            font-size:      28px;
+            line-height:    40px;
+            letter-spacing: -1px;
+            color:          #444;
+        }
+
+/* Header Area 
+**************/
+
+        div.logo h1 {
+            height:      100px;
+            width:       780px;
+            background:  url("../images/logo-white_bg.png") no-repeat;
+        }
+ 
+/* Navigation Bar 
+*****************/
+
+        div.nav {
+            margin-top: -15px;
+            height:     120px;
+            background: url("../images/navigation.png") no-repeat;
+        }
+
+        div.nav ul {
+            margin-top: 30px;
+            list-style: none;
+            text-align: center;
+        }
+
+        div.nav ul li {
+            display: inline;
+            padding: 5px;
+        }
+
+        div.nav ul li a {
+            color:           #444;
+            font-size:       20px;
+            font-family:     helvetica, "sans-serif";
+            font-weight:     500;
+            text-decoration: none;
+        }
+
+        div.nav ul li a:hover {
+            color:           #000;
+            text-decoration: underline;
+        }
+
+        .nav .line {
+            display: block;
+        }
+
+/* Main Content Area (middle of page) 
+*************************************/
+
+/******* Description line */
+
+        div.description em {
+            display:        block;
+            margin-top:     -75px;
+            font-size:      20px;
+            font-style:     italic;
+            font-family:    helvetica, "sans-serif";
+            margin-bottom: -10px;
+        }
+        
+/******* Features bar */
+
+        .features {
+            background: url("../images/box_bg.png") 0 30px  no-repeat;
+        }
+
+        div.features ul {
+            list-style: disc url("../images/bullet.gif") inside;
+            text-align: left; 
+        }
+
+        div.features li a:link, div.features li a:visited  {
+            color: #000;
+        }
+
+        div.features li a:hover {
+            color:         #7109aa;
+            /*color:         #46836f; */
+            border-bottom: 1px dotted;
+        }
+
+        div.features li a {
+            font-size:       15px;
+            font-family:     helvetica, "sans-serif";
+            text-decoration: none;
+            margin-bottom:   2px;
+        }
+       
+/******* Demo Animation Box */
+
+        div.demo_animation {
+            background:    url("../images/demo.gif") no-repeat;
+            height:        300px;
+            border: solid  1px #eee;
+            margin-bottom: 20px;
+        }
+
