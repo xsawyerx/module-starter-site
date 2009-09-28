@@ -121,9 +121,13 @@
 /******* Demo Animation Box */
 
         div.demo_animation {
-            background:    url("../images/demo.gif") no-repeat;
+            background:    #f1f1f1 url("../images/demo_waiting.gif") no-repeat;
             height:        300px;
             border: solid  1px #b3b3b3;
             margin-bottom: 20px;
+        }
+
+        div.demo_animation:hover {
+            background: #ffffff url('../images/demo.gif') no-repeat;
         }
 
