@@ -122,20 +122,20 @@
 
         #extra_info {
             margin-top:   -18px;
-            padding-left: 10px;
+            padding-left: 12px;
         }
 
         #extra_info h4 {
             background: url(../images/orb_more.png) no-repeat;
-            width: 100px;
-            height: 116px;
-            display: inline-block; 
+            width:      100px;
+            height:     116px;
+            display:    inline-block; 
         }
 
         #extra_info a {
             display: block;
-            width: 90px;
-            height: 116px;
+            width:   90px;
+            height:  98px;
         }
 
 /******* Demo Animation Box */
