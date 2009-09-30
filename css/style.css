@@ -2,7 +2,7 @@
 
 /* Global properties
 ********************/
-       p {
+       p.placeholder {
             border:     1px solid #666;
             overflow:   hidden;
             padding:    10px 0;
@@ -28,6 +28,30 @@
             line-height:    40px;
             letter-spacing: -1px;
             color:          #444;
+        }
+
+        blockquote p {
+            font-family:   helvetica, "sans-serif";
+            font-style:    italic;
+            padding:       0px 10px;
+            padding-right: 40px;
+            font-size:     20px;
+            color:         #000000;
+            float:         left;
+            background:    url("../images/right-quotation.png") bottom right no-repeat;
+        }
+
+        blockquote {
+            padding:      10px;
+            padding-left: 30px;
+            font-size:    20px;
+            background:   url("../images/left-quotation.png") top left no-repeat;
+        }
+
+        cite {
+            padding-left: 30px;
+            font-size:    15px;
+            font-family:  "serif";
         }
 
 /* Header Area 
@@ -117,6 +141,8 @@
             text-decoration: none;
             margin-bottom:   2px;
         }
+
+/******* Testimonials */
 
 /******* Extra Info Buttons */
 
