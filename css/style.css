@@ -113,10 +113,17 @@
             font-family:    helvetica, "sans-serif";
             margin-bottom: -10px;
         }
-        
+
+/******* Demo */
+
+        div#demo {
+            margin-top: -50px;
+        }
+
 /******* Features bar */
 
         .features {
+            margin-top: -50px;
             background: url("../images/box_bg.png") 0 30px  no-repeat;
         }
 
