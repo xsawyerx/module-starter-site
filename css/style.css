@@ -37,7 +37,7 @@
             padding-right: 40px;
             font-size:     20px;
             color:         #000000;
-            float:         left;
+            text-align: center;
             background:    url("../images/right-quotation.png") bottom right no-repeat;
         }
 
@@ -46,15 +46,16 @@
             padding-left: 30px;
             font-size:    20px;
             background:   url("../images/left-quotation.png") top left no-repeat;
+            display:      block;
         }
 
         cite {
-            padding-left: 30px;
-            font-size:    15px;
-            font-family:  "serif";
+            float:       right;
+            font-size:   15px;
+            font-family: "serif";
         }
 
-/* Header Area 
+/* Header Area
 **************/
 
         div.logo h1 {
@@ -62,8 +63,8 @@
             width:       780px;
             background:  url("../images/logo-white_bg.png") no-repeat;
         }
- 
-/* Navigation Bar 
+
+/* Navigation Bar
 *****************/
 
         div.nav {
@@ -100,7 +101,7 @@
             display: block;
         }
 
-/* Main Content Area (middle of page) 
+/* Main Content Area (middle of page)
 *************************************/
 
 /******* Description line */
@@ -129,7 +130,7 @@
 
         div.features ul {
             list-style: disc url("../images/bullet.gif") inside;
-            text-align: left; 
+            text-align: left;
         }
 
         div.features li a:link, div.features li a:visited  {
@@ -162,7 +163,7 @@
             background: url(../images/orb_more.png) no-repeat;
             width:      100px;
             height:     116px;
-            display:    inline-block; 
+            display:    inline-block;
         }
 
         #extra_info a {
