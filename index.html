@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="css/text.css" />
     <link rel="stylesheet" type="text/css" href="css/960.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script language="javascript" src="mootools-1.2.3-core-yc.js"></script>
 </head>
 <body>
     <div class="container_12">
@@ -86,7 +87,7 @@
 
         <div class="grid_6" id="testimonials">
             <!-- <h3>Testimonials</h3> -->
-            <blockquote><p>I can't imagine writing without it</p></blockquote>
+            <blockquote><p id="testimonial"></p></blockquote>
             <cite>-- Sawyer X</cite>
         </div>
 
@@ -96,5 +97,28 @@
         <div class="grid_12"><p class="placeholder">FOOTER</p></div>
         <div class="clear"></div>
     </div>
+    <script language="javascript">
+        var quote = new Array();
+
+        quote[0]  = "Can't imagine writing code without it";
+        quote[1]  = 'I use it all the time';
+        quote[2]  = 'One of the more important projects in Perl';
+        quote[3]  = 'Starting to code has never been this easy';
+
+        var speed = 2000;
+        var index = 0;
+
+        function showQuote() {
+            document.getElementById("testimonial").innerHTML = quote[index];
+            index++;
+
+            if ( index == quote.length ) {
+                index = 0;
+            }
+        }
+
+        showQuote();
+        setInterval( 'showQuote()', speed );
+    </script>
 </body>
 </html>
