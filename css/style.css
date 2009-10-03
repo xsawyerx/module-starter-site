@@ -37,15 +37,15 @@
             padding-right: 40px;
             font-size:     20px;
             color:         #000000;
-            text-align: center;
-            background:    url("../images/right-quotation.png") bottom right no-repeat;
+            text-align:    center;
         }
 
         blockquote {
             padding:      10px;
             padding-left: 30px;
             font-size:    20px;
-            background:   url("../images/left-quotation.png") top left no-repeat;
+            height:       80px;
+            background:   url("../images/quotations.png") top left no-repeat;
             display:      block;
         }
 

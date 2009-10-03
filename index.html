@@ -88,7 +88,7 @@
         <div class="grid_6" id="testimonials">
             <!-- <h3>Testimonials</h3> -->
             <blockquote><p id="testimonial"></p></blockquote>
-            <cite>-- Sawyer X</cite>
+            <cite id="cite">-- Sawyer X</cite>
         </div>
 
         <div class="clear"></div>
@@ -98,27 +98,48 @@
         <div class="clear"></div>
     </div>
     <script language="javascript">
-        var quote = new Array();
+        var quotes = new Hash( {
+            'Sawyer X'    : "Can't imagine writing code without it",
+            'Mister X'    : 'I use it all the time',
+            'JFK'         : 'One of the more important projects in Perl',
+            'Hulk Hoggan' : 'Starting to code has never been this easy'
+        } );
 
-        quote[0]  = "Can't imagine writing code without it";
-        quote[1]  = 'I use it all the time';
-        quote[2]  = 'One of the more important projects in Perl';
-        quote[3]  = 'Starting to code has never been this easy';
+        var quote_keys = quotes.getKeys();
 
-        var speed = 2000;
         var index = 0;
+        var elem  = $('testimonial');
+        var fader = new Fx.Tween( elem, {
+            property: 'opacity',
+            link:     'chain',
+            duration: 1000,
+        } );
 
-        function showQuote() {
-            document.getElementById("testimonial").innerHTML = quote[index];
-            index++;
-
-            if ( index == quote.length ) {
-                index = 0;
-            }
+        function transition() {
+            fader
+            .start(0)
+            .chain( function () {
+                next_quote();
+                this.start(1);
+            } );
         }
 
-        showQuote();
-        setInterval( 'showQuote()', speed );
+        function next_quote() {
+            var cite  = quote_keys[index];
+            var quote = quotes.get(cite);
+            document.getElementById("testimonial").innerHTML = quote;
+            document.getElementById("cite").innerHTML        = '-- ' + cite;
+
+            if ( index == ( quotes.getLength() - 1 ) ) {
+                index = 0;
+                return;
+            }
+
+            index++;
+        }
+
+        next_quote();
+        transition.periodical( 4000 );
     </script>
 </body>
 </html>
