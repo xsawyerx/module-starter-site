@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="css/text.css" />
     <link rel="stylesheet" type="text/css" href="css/960.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <script language="javascript" src="mootools-1.2.3-core-yc.js"></script>
+    <script language="javascript" src="js/mootools-1.2.3-core-yc.js"></script>
 </head>
 <body>
     <div class="container_12">
@@ -97,49 +97,8 @@
         <div class="grid_12"><p class="placeholder">FOOTER</p></div>
         <div class="clear"></div>
     </div>
-    <script language="javascript">
-        var quotes = new Hash( {
-            'Sawyer X'    : "Can't imagine writing code without it",
-            'Mister X'    : 'I use it all the time',
-            'JFK'         : 'One of the more important projects in Perl',
-            'Hulk Hoggan' : 'Starting to code has never been this easy'
-        } );
 
-        var quote_keys = quotes.getKeys();
-
-        var index = 0;
-        var elem  = $('testimonial');
-        var fader = new Fx.Tween( elem, {
-            property: 'opacity',
-            link:     'chain',
-            duration: 1000,
-        } );
-
-        function transition() {
-            fader
-            .start(0)
-            .chain( function () {
-                next_quote();
-                this.start(1);
-            } );
-        }
-
-        function next_quote() {
-            var cite  = quote_keys[index];
-            var quote = quotes.get(cite);
-            document.getElementById("testimonial").innerHTML = quote;
-            document.getElementById("cite").innerHTML        = '-- ' + cite;
-
-            if ( index == ( quotes.getLength() - 1 ) ) {
-                index = 0;
-                return;
-            }
-
-            index++;
-        }
-
-        next_quote();
-        transition.periodical( 4000 );
-    </script>
+    <!-- javascript files and post-load behavior -->
+    <script language="javascript" src="js/code.js"></script>
 </body>
 </html>
