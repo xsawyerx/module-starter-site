@@ -164,17 +164,17 @@
             float: left;
         }
 
-        div#developers ul {
+        div#developers ul, div#footer ul {
             list-style: none;
             clear:      both;
         }
 
-        div#developers ul li {
+        div#developers ul li, div#footer ul li {
             display:     inline;
             margin-left: 0px;
         }
 
-        div#developers ul li a {
+        div#developers ul li a, div#footer ul li a {
             font-size:       13px;
             font-family:     helvetica, "sans-serif";
             text-decoration: none;
@@ -182,14 +182,34 @@
             border-bottom: 1px dotted;
         }
 
-        div#developers ul li a:hover {
-            color:         #7109aa;
+        div#developers ul li a:hover, div#footer ul li a:hover {
+            color: #7109aa;
         }
 
         div#developers li a:link, div#developers li a:visited  {
             color: #0066cc;
         }
 
+        div#footer li a:link, div#footer li a:visited  {
+            color: #000999;
+        }
+
+        div#footer ul {
+            text-align: center;
+        }
+
+        div#footer ul li {
+            padding-left: 50px;
+        }
+
+        div#footer p {
+            clear: both;
+            text-align: center;
+            margin-top: -15px;
+            font-size:  12px;
+            font-family: helvetica, "sans-serif";
+            font-style: italic;
+        }
 
         div#headlines {
             float:       left;
