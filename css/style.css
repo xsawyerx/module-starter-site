@@ -23,7 +23,7 @@
             height:           1em;
         }
 
-        h2, h3, h4 {
+        h2, h3, h4, h5 {
             margin-top:     10px;
             margin-left:    20px;
             margin-right:   45px;
@@ -198,7 +198,7 @@
             margin-left: -5px;
         }
 
-        div#headlines h3 {
+        div#headlines h5 {
             margin-top: -20px;
             font-size:  15px;
         }
