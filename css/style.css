@@ -2,6 +2,9 @@
 
 /* Global properties
 ********************/
+       em {
+            font-style: normal;
+       }
        p.placeholder {
             border:     1px solid #666;
             overflow:   hidden;
@@ -133,17 +136,13 @@
             text-align: left;
         }
 
-        div.features li a:link, div.features li a:visited  {
-            color: #000;
-        }
-
-        div.features li a:hover {
+        div.features li em:hover {
             color:         #7109aa;
             /*color:         #46836f; */
             border-bottom: 1px dotted;
         }
 
-        div.features li a {
+        div.features li em {
             font-size:       15px;
             font-family:     helvetica, "sans-serif";
             text-decoration: none;
