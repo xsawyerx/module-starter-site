@@ -27,7 +27,7 @@
             margin-top:     10px;
             margin-left:    20px;
             margin-right:   45px;
-            font-family:    georgia, "serif";
+            font-family:    "georgia", serif;
             font-style:     italic;
             font-size:      28px;
             line-height:    40px;
@@ -67,7 +67,7 @@
         div.nav ul li a {
             color:           #444;
             font-size:       20px;
-            font-family:     helvetica, "sans-serif";
+            font-family:     "helvetica", sans-serif;
             font-weight:     500;
             text-decoration: none;
         }
@@ -90,7 +90,7 @@
             margin-top:    -50px;
             font-size:     20px;
             font-style:    italic;
-            font-family:   helvetica, "sans-serif";
+            font-family:   "helvetica", sans-serif;
             margin-bottom: 20px;
         }
 
@@ -133,7 +133,7 @@
 
         div.features li em {
             font-size:       15px;
-            font-family:     helvetica, "sans-serif";
+            font-family:     "helvetica", sans-serif;
             text-decoration: none;
             margin-bottom:   2px;
         }
@@ -170,7 +170,7 @@
         div#developers p {
             margin-top: -15px;
             font-size:  15px;
-            font-family: helvetica, "sans-serif";
+            font-family: "helvetica", sans-serif;
             font-style: italic;
         }
 
@@ -202,7 +202,7 @@
 
         div#developers ul li a, div#footer ul li a {
             font-size:       13px;
-            font-family:     helvetica, "sans-serif";
+            font-family:     "helvetica", sans-serif;
             text-decoration: none;
             margin-bottom:   2px;
             border-bottom:   1px dotted;
@@ -219,7 +219,7 @@
 /******* Testimonials */
 
         blockquote p {
-            font-family:   helvetica, "sans-serif";
+            font-family:   "helvetica", sans-serif;
             font-style:    italic;
             padding:       0px 10px;
             padding-right: 40px;
@@ -240,7 +240,7 @@
         cite {
             float:       right;
             font-size:   15px;
-            font-family: "serif";
+            font-family: serif;
         }
 
 /******* Footer */
@@ -262,7 +262,7 @@
             text-align: center;
             margin-top: -15px;
             font-size:  12px;
-            font-family: helvetica, "sans-serif";
+            font-family: "helvetica", sans-serif;
             font-style: italic;
         }
 
