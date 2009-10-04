@@ -146,10 +146,17 @@
         }
 
         #extra_info h4 {
-            background: url(../images/orb_more.png) no-repeat;
             width:      100px;
             height:     116px;
             display:    inline-block;
+        }
+
+        #extra_info h4#tell_more {
+        background: url(../images/orb_more.png) no-repeat;
+        }
+
+        #extra_info h4#download {
+        background: url(../images/orb_download.png) no-repeat;
         }
 
         #extra_info a {
