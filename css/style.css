@@ -53,8 +53,15 @@
             background: url("../images/navigation.png") no-repeat;
         }
 
-        div.nav ul {
+        div.nav ul.first_row {
             margin-top: 30px;
+        }
+
+        div.nav ul.second_row {
+            margin-top: -15px;
+        }
+
+        div.nav ul {
             list-style: none;
             text-align: center;
         }
@@ -176,6 +183,10 @@
 
         div#developers img {
             float: left;
+        }
+
+        div #developers ul.second_row {
+            margin-top: -20px;
         }
 
         div#headlines {
