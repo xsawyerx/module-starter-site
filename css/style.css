@@ -282,15 +282,21 @@ div#features_page {
     display: none;
 }
 
-div.feature {
-    border: 2px dashed #255;
-    margin-top:    -10px;
-    margin-bottom: -10px;
-    margin-left:   -10px;
-    margin-right:  -10px;
+div.feature_row .feature {
+    border:         2px dashed #255;
+    padding-top:    5px;
+    padding-bottom: 5px;
+    padding-left:   5px;
+    padding-right:  5px;
+    margin-bottom:  10px;
+    width:          260px;
+    height:         150px;
+    font-size:      15px;
+    text-align:     center;
 }
 
 div.feature h3 {
-    font-size: 17px;
+    font-size:  17px;
+    text-align: right;
 }
 
