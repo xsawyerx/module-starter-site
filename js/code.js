@@ -40,3 +40,10 @@ function next_quote() {
 
 next_quote();
 transition.periodical( 4000 );
+
+function show_div(id) {
+    document.getElementById('main_page').style.display = 'none';
+    document.getElementById('features_page').style.display = 'none';
+    document.getElementById(id).style.display = 'block';
+}
+

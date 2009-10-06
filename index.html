@@ -14,7 +14,9 @@
     <div class="container_12">
         <!-- head / logo and slogan -->
         <div class="grid_8 logo">
+        <a href="#" onclick="show_div('main_page'); false;">
             <h1 class="seeya">Module::Starter</h1>
+        </a>
         </div>
 
         <div class="grid_4">
@@ -29,7 +31,7 @@
 
         <div class="grid_10 nav">
             <ul class="first_row">
-                <li><a href="#" title="Features">Features</a></li>
+                <li><a href="#" onclick="show_div('features_page'); false;" title="Features">Features</a></li>
                 <li><a href="#" title="Where to download">Download</a></li>
                 <li><a href="#" title="Developers involved">Developers</a></li>
                 <li><a href="#" title="A Quick Tutorial">Quick Tutorial</a></li>
@@ -110,6 +112,71 @@
 
             <div class="clear"></div>
         </div> <!-- main page content -->
+
+        <!-- features page content -->
+        <div id="features_page">
+            <h2 class="seeya">Features</h2>
+            <div class="grid_2 spacer"></div>
+
+            <div class="grid_8">
+                <div class="feature_row">
+                    <div class="grid_4 feature">
+                        <h3>Easy to use</h3>
+                        <p>Module::Starter makes starting modules easy and effortless</p>
+                    </div>
+                    <div class="grid_4 feature">
+                        <h3>Versatile</h3>
+                        <p>Support for various licenses, various building toolchains and templating is just the start...</p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="feature_row">
+                    <div class="feature">
+                        <h3>Community Support</h3>
+                        <p>An app of the community, developed by the community, for the community!</p>
+                    </div>
+                    <div class="feature">
+                        <h3>CPAN compatible</h3>
+                        <p>You're modules and app will be CPAN ready. Become a CPAN author today!</p>
+                    </div>
+                </div>
+                <div class="feature_row">
+                    <div class="feature">
+                        <h3>Clean beautiful codebase</h3>
+                        <p>If you like to hack on code and/or contribute, this is one codebase that won't give you a headache.</p>
+                    </div>
+
+                    <div class="feature">
+                        <h3>Stable</h3>
+                        <p>You can count on Module::Starter!</p>
+                    </div>
+                </div>
+                <div class="feature_row">
+                    <div class="feature">
+                        <h3>Large userbase</h3>
+                        <p>Module::Starter is the most popular Perl module creation app out there.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Built-in plugin system</h3>
+                        <p>Use others, build your own!</p>
+                    </div>
+                </div>
+                <div class="feature_row">
+                    <div class="feature">
+                        <h3>Extensively tested</h3>
+                        <p>Module::Starter has its own testing ground to make sure every feature works as expected.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>More</h3>
+                        <p>Feel like suggesting, contributing, commenting? Go right ahead, be part of the community!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid_2 spacer"></div>
+
+            <div class="clear"></div>
+        </div> <!-- features page content -->
 
         <!-- footer -->
         <div class="grid_12" id="footer">
