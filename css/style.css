@@ -2,278 +2,278 @@
 
 /* Global properties
 ********************/
-       em {
-            font-style: normal;
-       }
-       p.placeholder {
-            border:     1px solid #666;
-            overflow:   hidden;
-            padding:    10px 0;
-            text-align: center;
-        }
+em {
+    font-style: normal;
+}
+p.placeholder {
+    border:     1px solid #666;
+    overflow:   hidden;
+    padding:    10px 0;
+    text-align: center;
+}
 
-        .seeya {
-            text-indent: -999px;
-            margin:      0;
-            padding:     0;
-        }
+.seeya {
+    text-indent: -999px;
+    margin:      0;
+    padding:     0;
+}
 
-        div.spacer {
-            background-color: #ffffff;
-            height:           1em;
-        }
+div.spacer {
+    background-color: #ffffff;
+    height:           1em;
+}
 
-        h2, h3, h4, h5 {
-            margin-top:     10px;
-            margin-left:    20px;
-            margin-right:   45px;
-            font-family:    "georgia", serif;
-            font-style:     italic;
-            font-size:      28px;
-            line-height:    40px;
-            letter-spacing: -1px;
-            color:          #444;
-        }
+h2, h3, h4, h5 {
+    margin-top:     10px;
+    margin-left:    20px;
+    margin-right:   45px;
+    font-family:    "georgia", serif;
+    font-style:     italic;
+    font-size:      28px;
+    line-height:    40px;
+    letter-spacing: -1px;
+    color:          #444;
+}
 
 /* Header Area
 **************/
 
-        div.logo h1 {
-            height:      100px;
-            width:       780px;
-            background:  url("../images/logo-white_bg.png") no-repeat;
-        }
+div.logo h1 {
+    height:      100px;
+    width:       780px;
+    background:  url("../images/logo-white_bg.png") no-repeat;
+}
 
 /* Navigation Bar
 *****************/
 
-        div.nav {
-            margin-top: -15px;
-            height:     120px;
-            background: url("../images/navigation.png") no-repeat;
-        }
+div.nav {
+    margin-top: -15px;
+    height:     120px;
+    background: url("../images/navigation.png") no-repeat;
+}
 
-        div.nav ul.first_row {
-            margin-top: 30px;
-        }
+div.nav ul.first_row {
+    margin-top: 30px;
+}
 
-        div.nav ul.second_row {
-            margin-top: -15px;
-        }
+div.nav ul.second_row {
+    margin-top: -15px;
+}
 
-        div.nav ul {
-            list-style: none;
-            text-align: center;
-        }
+div.nav ul {
+    list-style: none;
+    text-align: center;
+}
 
-        div.nav ul li {
-            display: inline;
-            padding: 5px;
-        }
+div.nav ul li {
+    display: inline;
+    padding: 5px;
+}
 
-        div.nav ul li a {
-            color:           #444;
-            font-size:       20px;
-            font-family:     "helvetica", sans-serif;
-            font-weight:     500;
-            text-decoration: none;
-        }
+div.nav ul li a {
+    color:           #444;
+    font-size:       20px;
+    font-family:     "helvetica", sans-serif;
+    font-weight:     500;
+    text-decoration: none;
+}
 
-        div.nav ul li a:hover {
-            color: #000;
-        }
+div.nav ul li a:hover {
+    color: #000;
+}
 
-        .nav .line {
-            display: block;
-        }
+.nav .line {
+    display: block;
+}
 
 /* Main Content Area (middle of page)
 *************************************/
 
 /******* Description line */
 
-        div.description em {
-            display:       block;
-            margin-top:    -50px;
-            font-size:     20px;
-            font-style:    italic;
-            font-family:   "helvetica", sans-serif;
-            margin-bottom: 20px;
-        }
+div.description em {
+    display:       block;
+    margin-top:    -50px;
+    font-size:     20px;
+    font-style:    italic;
+    font-family:   "helvetica", sans-serif;
+    margin-bottom: 20px;
+}
 
 /******* Demo */
 
-        div#demo {
-            margin-top: -50px;
-        }
+div#demo {
+    margin-top: -50px;
+}
 
 /******* Demo Animation Box */
 
-        div.demo_animation {
-            background:    #f1f1f1 url("../images/demo_waiting.gif") no-repeat;
-            height:        300px;
-            border: solid  1px #b3b3b3;
-            margin-bottom: 20px;
-        }
+div.demo_animation {
+    background:    #f1f1f1 url("../images/demo_waiting.gif") no-repeat;
+    height:        300px;
+    border: solid  1px #b3b3b3;
+    margin-bottom: 20px;
+}
 
-        div.demo_animation:hover {
-            background: #ffffff url('../images/demo.gif') no-repeat;
-        }
+div.demo_animation:hover {
+    background: #ffffff url('../images/demo.gif') no-repeat;
+}
 
 /******* Features bar */
 
-        .features {
-            margin-top: -50px;
-            background: url("../images/box_bg.png") 0 30px  no-repeat;
-        }
+.features {
+    margin-top: -50px;
+    background: url("../images/box_bg.png") 0 30px  no-repeat;
+}
 
-        div.features ul {
-            list-style: disc url("../images/bullet.gif") inside;
-            text-align: left;
-        }
+div.features ul {
+    list-style: disc url("../images/bullet.gif") inside;
+    text-align: left;
+}
 
-        div.features li em:hover {
-            color:         #7109aa;
-            /*color:         #46836f; */
-            border-bottom: 1px dotted;
-        }
+div.features li em:hover {
+    color:         #7109aa;
+    /*color:         #46836f; */
+    border-bottom: 1px dotted;
+}
 
-        div.features li em {
-            font-size:       15px;
-            font-family:     "helvetica", sans-serif;
-            text-decoration: none;
-            margin-bottom:   2px;
-        }
+div.features li em {
+    font-size:       15px;
+    font-family:     "helvetica", sans-serif;
+    text-decoration: none;
+    margin-bottom:   2px;
+}
 
 /******* Extra Info Buttons */
 
-        #extra_info {
-            margin-top:   -18px;
-            padding-left: 12px;
-        }
+#extra_info {
+    margin-top:   -18px;
+    padding-left: 12px;
+}
 
-        #extra_info h4 {
-            width:      100px;
-            height:     116px;
-            display:    inline-block;
-        }
+#extra_info h4 {
+    width:      100px;
+    height:     116px;
+    display:    inline-block;
+}
 
-        #extra_info h4#tell_more {
-        background: url(../images/orb_more.png) no-repeat;
-        }
+#extra_info h4#tell_more {
+background: url(../images/orb_more.png) no-repeat;
+}
 
-        #extra_info h4#download {
-        background: url(../images/orb_download.png) no-repeat;
-        }
+#extra_info h4#download {
+background: url(../images/orb_download.png) no-repeat;
+}
 
-        #extra_info a {
-            display: block;
-            width:   90px;
-            height:  98px;
-        }
+#extra_info a {
+    display: block;
+    width:   90px;
+    height:  98px;
+}
 
 /******* Developers */
 
-        div#developers p {
-            margin-top: -15px;
-            font-size:  15px;
-            font-family: "helvetica", sans-serif;
-            font-style: italic;
-        }
+div#developers p {
+    margin-top: -15px;
+    font-size:  15px;
+    font-family: "helvetica", sans-serif;
+    font-style: italic;
+}
 
-        div#developers img {
-            float: left;
-        }
+div#developers img {
+    float: left;
+}
 
-        div #developers ul.second_row {
-            margin-top: -20px;
-        }
+div #developers ul.second_row {
+    margin-top: -20px;
+}
 
-        div#headlines {
-            float:       left;
-            height:     100px;
-            margin-top:  -10px;
-            margin-left: -5px;
-        }
+div#headlines {
+    float:       left;
+    height:     100px;
+    margin-top:  -10px;
+    margin-left: -5px;
+}
 
-        div#headlines h5 {
-            margin-top: -20px;
-            font-size:  15px;
-        }
+div#headlines h5 {
+    margin-top: -20px;
+    font-size:  15px;
+}
 
-        div#developers ul, div#footer ul {
-            list-style: none;
-            clear:      both;
-        }
+div#developers ul, div#footer ul {
+    list-style: none;
+    clear:      both;
+}
 
-        div#developers ul li, div#footer ul li {
-            display:     inline;
-            margin-left: 0px;
-        }
+div#developers ul li, div#footer ul li {
+    display:     inline;
+    margin-left: 0px;
+}
 
-        div#developers ul li a, div#footer ul li a {
-            font-size:       13px;
-            font-family:     "helvetica", sans-serif;
-            text-decoration: none;
-            margin-bottom:   2px;
-            border-bottom:   1px dotted;
-        }
+div#developers ul li a, div#footer ul li a {
+    font-size:       13px;
+    font-family:     "helvetica", sans-serif;
+    text-decoration: none;
+    margin-bottom:   2px;
+    border-bottom:   1px dotted;
+}
 
-        div#developers ul li a:hover, div#footer ul li a:hover {
-            color: #7109aa;
-        }
+div#developers ul li a:hover, div#footer ul li a:hover {
+    color: #7109aa;
+}
 
-        div#developers li a:link, div#developers li a:visited  {
-            color: #0066cc;
-        }
+div#developers li a:link, div#developers li a:visited  {
+    color: #0066cc;
+}
 
 /******* Testimonials */
 
-        blockquote p {
-            font-family:   "helvetica", sans-serif;
-            font-style:    italic;
-            padding:       0px 10px;
-            padding-right: 40px;
-            font-size:     20px;
-            color:         #000000;
-            text-align:    center;
-        }
+blockquote p {
+    font-family:   "helvetica", sans-serif;
+    font-style:    italic;
+    padding:       0px 10px;
+    padding-right: 40px;
+    font-size:     20px;
+    color:         #000000;
+    text-align:    center;
+}
 
-        blockquote {
-            padding:      10px;
-            padding-left: 30px;
-            font-size:    20px;
-            height:       80px;
-            background:   url("../images/quotations.png") top left no-repeat;
-            display:      block;
-        }
+blockquote {
+    padding:      10px;
+    padding-left: 30px;
+    font-size:    20px;
+    height:       80px;
+    background:   url("../images/quotations.png") top left no-repeat;
+    display:      block;
+}
 
-        cite {
-            float:       right;
-            font-size:   15px;
-            font-family: serif;
-        }
+cite {
+    float:       right;
+    font-size:   15px;
+    font-family: serif;
+}
 
 /******* Footer */
 
-        div#footer li a:link, div#footer li a:visited  {
-            color: #000999;
-        }
+div#footer li a:link, div#footer li a:visited  {
+    color: #000999;
+}
 
-        div#footer ul {
-            text-align: center;
-        }
+div#footer ul {
+    text-align: center;
+}
 
-        div#footer ul li {
-            padding-left: 50px;
-        }
+div#footer ul li {
+    padding-left: 50px;
+}
 
-        div#footer p {
-            clear: both;
-            text-align: center;
-            margin-top: -15px;
-            font-size:  12px;
-            font-family: "helvetica", sans-serif;
-            font-style: italic;
-        }
+div#footer p {
+    clear: both;
+    text-align: center;
+    margin-top: -15px;
+    font-size:  12px;
+    font-family: "helvetica", sans-serif;
+    font-style: italic;
+}
 
